@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+}
+
+body {
+    background-color: #e5e5f0;;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to right top, #9996cb, #b4a5d1, #cbb6d7, #dec8de, #eddbe8);
+    border-bottom-left-radius: 50%;
+    margin: 30px;
+}
+
+.titulo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r {
+    width: 650px;
+    height: 70vh;
+}
+
+.r h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.r p {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.r input {
+    width: 80%;
+    height: 90px;
+    margin: 20px;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.r button {
+    width: 80%;
+    height: 90px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 70px;
+    background-color: crimson;
+    color: cyan;
+}
+
+.r button:hover {
+    background-color: rgb(236, 52, 89);
+    color: rgb(49, 255, 255);
+}
+
+.r button:focus {
+    background-color: rgb(148, 11, 38);
+    color: rgb(0, 255, 255);
+}
+
+.i {
+    width: 80%;
+    height: 90px;
+    margin: 20px;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+}

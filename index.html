@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/inde.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <h1>Calculadora de Figuras Geometricas</h1>
+    </header>
+    <div class="titulo">
+        <p>Aquí podras calcular de manera efectiva y rapida el perimetro y el area de diferentes figuras geometricas</p>
+    </div>
+    <main>
+        <div class="cuadrados r">
+            <h2>Cuadrados</h2>
+            <p id="i">¿Cuanto mide el lado del cuadrado?</p>
+            <input type="number" placeholder="Lado en cm" id="ladoCuadrado">
+            <button id="perimetroCuadrado">Calcular perimetro</button>
+            <button id="areaCuadrado">Calcular area</button>
+        </div>
+        <div class="triangulos r">
+            <h2>Triangulo</h2>
+            <p id="o">¿Cuanto mide cada lado del triangulo?</p>
+            <input id="ladoTriangulos" type="number" placeholder="Lados">
+            <input id="BaseTriangulo" type="number" placeholder="Base">
+            <input id="AlturaTriangulo" type="number" placeholder="Altura"> 
+            <button id="CalcularPerimetroTriangulo">Calcular perimetro</button>
+            <button id="CalcularAreaTriangulo">Calcular area</button>
+        </div>
+        <div class="circulos r">
+            <h2>Circulo</h2>
+            <p id="p" >¿Cuanto mide el radio del Circulo?</p>
+            <input id="radio" type="number" placeholder="Radio en cm">
+            <button id="CalcularPerimetroCirculo">Calcular perimetro</button>
+            <button id="CalcularAreaCirculo">Calcular area</button>
+        </div>    
+    </main> 
+    <script src="/index.js"></script>
+</body>
+</html>
